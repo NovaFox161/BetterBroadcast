@@ -1,0 +1,23 @@
+name: BetterBroadcastPlus
+version: 1.0.0
+description: Creates automated broadcasts globally and per world.
+author: Shades161
+website: http://dev.bukkit.org/bukkit-plugins/betterbroadcast-plus/
+
+main: com.cloudcraftgaming.betterbroadcastplus.Main `
+
+commands:
+  broadcast:
+    description: Base command. Used for broadcast related command functions.
+    permission: BB.use.broadcast
+  bc:
+    description: Base command. Used for broadcast related command functions.
+    permission: BB.use.broadcast
+
+permissions:
+  BB.use.broadcast:
+    description: Allows use of the broadcast command.
+    default: op
+  BB.notify.update:
+    description: Allows being notified of a plugin updates.
+    default: op
